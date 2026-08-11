@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: monitor-toggle
+Version: 0.1.0
+Summary: Toggle second monitor input (DDC/CI) and Windows display mode with one click
+Requires-Python: >=3.10
+Requires-Dist: monitorcontrol>=3.0
+Requires-Dist: pystray>=0.19
+Requires-Dist: pillow>=10.0
+Provides-Extra: hotkey
+Requires-Dist: keyboard>=0.13; extra == "hotkey"

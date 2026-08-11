@@ -1,0 +1,6 @@
+monitorcontrol>=3.0
+pystray>=0.19
+pillow>=10.0
+
+[hotkey]
+keyboard>=0.13

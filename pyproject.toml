@@ -1,0 +1,25 @@
+[project]
+name = "monitor-toggle"
+version = "0.1.0"
+description = "Toggle second monitor input (DDC/CI) and Windows display mode with one click"
+requires-python = ">=3.10"
+dependencies = [
+    "monitorcontrol>=3.0",
+    "pystray>=0.19",
+    "pillow>=10.0",
+]
+
+[project.optional-dependencies]
+hotkey = ["keyboard>=0.13"]
+
+[project.scripts]
+monitor-toggle = "monitor_toggle.tray:main"
+monitor-discover = "discover:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["monitor_toggle"]
+py-modules = ["discover"]

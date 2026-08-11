@@ -1,0 +1,3 @@
+[console_scripts]
+monitor-discover = discover:main
+monitor-toggle = monitor_toggle.tray:main

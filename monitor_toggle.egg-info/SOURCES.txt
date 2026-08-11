@@ -1,0 +1,15 @@
+README.md
+discover.py
+pyproject.toml
+monitor_toggle/__init__.py
+monitor_toggle/config.py
+monitor_toggle/ddc.py
+monitor_toggle/display_mode.py
+monitor_toggle/toggle.py
+monitor_toggle/tray.py
+monitor_toggle.egg-info/PKG-INFO
+monitor_toggle.egg-info/SOURCES.txt
+monitor_toggle.egg-info/dependency_links.txt
+monitor_toggle.egg-info/entry_points.txt
+monitor_toggle.egg-info/requires.txt
+monitor_toggle.egg-info/top_level.txt
