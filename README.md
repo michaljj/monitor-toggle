@@ -49,3 +49,9 @@ Create a shortcut to `pythonw.exe -m monitor_toggle.tray` in
   `%APPDATA%/monitor-toggle/config.json` (default 3 s).
 - **Windows moves windows around when input switches** — GPU/driver
   dependent; see `PLAN.md` risks section.
+
+## License
+
+Licensed under the [PolyForm Noncommercial License 1.0.0](LICENSE.md). Free for
+personal, academic and other noncommercial use. Commercial use requires a separate
+license — get in touch.
