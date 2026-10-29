@@ -1,2 +1,0 @@
-discover
-monitor_toggle
